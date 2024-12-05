@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?r9slsh');
+  src: url('../fonts/icomoon.eot?r9slsh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?r9slsh') format('truetype'),
+    url('../fonts/icomoon.woff?r9slsh') format('woff'),
+    url('../fonts/icomoon.svg?r9slsh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fedora:before {
+  content: "\e900";
+  color: #294172;
+}
+
+.icon-gmail:before {
+  content: "\e901";
+  color: #d14836;
+}
+
+.icon-groupon:before {
+  content: "\e902";
+  color: #53a318;
+}
+
+.icon-hp:before {
+  content: "\e903";
+  color: #0096d6;
+}
+
+.icon-html5:before {
+  content: "\e904";
+  color: #e34f26;
+}
+
+.icon-htmlacademy:before {
+  content: "\e905";
+  color: #302683;
+}
